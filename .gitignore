@@ -1,0 +1,22 @@
+# Editor/runtime noise
+.nvimlog
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency/build artifacts for generated examples or local tests
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Local environment files
+.env
+.env.*
+!.env.example
