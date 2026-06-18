@@ -1,0 +1,38 @@
+# Sources
+
+- Agent Skills Overview: https://agentskills.io/home
+  - Accessed: 2026-06-18
+  - Use: Confirms that a skill is a folder with `SKILL.md` plus optional scripts, references, and assets, loaded through progressive disclosure.
+- Agent Skills Specification: https://agentskills.io/specification
+  - Accessed: 2026-06-18
+  - Use: Defines required frontmatter, naming constraints, description constraints, optional resource directories, and validation expectations.
+- Agent Skills Quickstart: https://agentskills.io/skill-creation/quickstart
+  - Accessed: 2026-06-18
+  - Use: Confirms minimal skill structure and that compatible agents discover skills by reading `name` and `description`.
+- Agent Skills Best Practices: https://agentskills.io/skill-creation/best-practices
+  - Accessed: 2026-06-18
+  - Use: Shapes the workflow around real expertise, moderate detail, progressive disclosure, procedures, checklists, validation loops, and scripts.
+- Agent Skills Optimizing Descriptions: https://agentskills.io/skill-creation/optimizing-descriptions
+  - Accessed: 2026-06-18
+  - Use: Informs the description checklist and trigger-quality guidance.
+- Agent Skills Evaluating Skills: https://agentskills.io/skill-creation/evaluating-skills
+  - Accessed: 2026-06-18
+  - Use: Informs the recommendation to test skills with realistic prompts, expected outcomes, edge cases, and iterative improvement.
+- Agent Skills Using Scripts: https://agentskills.io/skill-creation/using-scripts
+  - Accessed: 2026-06-18
+  - Use: Informs script design guidance: non-interactive use, helpful errors, `--help`, and structured output.
+- Agent Skills Adding Skills Support: https://agentskills.io/client-implementation/adding-skills-support
+  - Accessed: 2026-06-18
+  - Use: Reinforces progressive disclosure and resource loading behavior.
+- Anthropic, Building Effective Agents: https://www.anthropic.com/engineering/building-effective-agents
+  - Accessed: 2026-06-18
+  - Use: Supports keeping agentic workflows simple, grounding progress in environment feedback, using tools, and adding evaluation/optimizer loops when criteria are clear.
+- OpenAI Agents SDK Documentation: https://openai.github.io/openai-agents-python/
+  - Accessed: 2026-06-18
+  - Use: Supports practical primitives for agents: instructions, tools, handoffs, guardrails, sessions, tracing, and human-in-the-loop.
+- Google Agent Development Kit: https://adk.dev/
+  - Accessed: 2026-06-18
+  - Use: Supports production-agent guidance around tools, graph workflows, debugging, evaluation, and deployment.
+- Amazon Bedrock Agents Documentation: https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html
+  - Accessed: 2026-06-18
+  - Use: Supports task decomposition, knowledge bases, action groups, tracing, testing, versioning, and iteration.

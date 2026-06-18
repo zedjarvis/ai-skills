@@ -1,0 +1,47 @@
+# Sources
+
+- Next.js Installation: https://nextjs.org/docs/app/getting-started/installation
+  - Accessed: 2026-06-18
+  - Use: Confirms current `create-next-app` flow, default TypeScript/Tailwind/App Router setup, Node requirements, and AI-agent project instruction generation behavior.
+- Next.js Static Exports: https://nextjs.org/docs/app/guides/static-exports
+  - Accessed: 2026-06-18
+  - Use: Confirms `output: 'export'`, generated `out` directory, supported static hosting model, and limitations relevant to Nest-hosted frontend deployment.
+- Next.js Backend for Frontend Guide: https://nextjs.org/docs/app/guides/backend-for-frontend
+  - Accessed: 2026-06-18
+  - Use: Informs the separate-service default when Next owns server-side frontend behavior.
+- shadcn/ui Next.js Installation: https://ui.shadcn.com/docs/installation/next
+  - Accessed: 2026-06-18
+  - Use: Confirms using `create-next-app`, recommended Tailwind/App Router defaults, `pnpm dlx shadcn@latest init`, and adding components.
+- NestJS Documentation: https://docs.nestjs.com/
+  - Accessed: 2026-06-18
+  - Use: Confirms Nest project concepts, modules, controllers, providers, and official feature organization.
+- NestJS OpenAPI Introduction: https://docs.nestjs.com/openapi/introduction
+  - Accessed: 2026-06-18
+  - Use: Confirms `@nestjs/swagger`, `DocumentBuilder`, `SwaggerModule.createDocument`, and `SwaggerModule.setup`.
+- NestJS Health Checks with Terminus: https://docs.nestjs.com/recipes/terminus
+  - Accessed: 2026-06-18
+  - Use: Confirms `@nestjs/terminus`, health modules/controllers, health indicators, and `enableShutdownHooks` recommendation.
+- NestJS Serve Static Recipe: https://docs.nestjs.com/recipes/serve-static
+  - Accessed: 2026-06-18
+  - Use: Confirms `ServeStaticModule.forRoot`, `rootPath`, static build placement, and route exclusion behavior.
+- NestJS CLI Workspaces: https://docs.nestjs.com/cli/monorepo
+  - Accessed: 2026-06-18
+  - Use: Confirms Nest can operate in monorepo mode but that Nest features are independent of code organization, supporting a pnpm/Turborepo workspace with Nest as one app.
+- Turborepo Installation: https://turborepo.dev/docs/getting-started/installation
+  - Accessed: 2026-06-18
+  - Use: Confirms local `turbo` devDependency recommendation and package-manager-specific install commands.
+- Turborepo Repository Structure: https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository
+  - Accessed: 2026-06-18
+  - Use: Confirms `apps/*` and `packages/*`, root `package.json`, lockfile, `turbo.json`, package-level `package.json`, `@repo` namespace, exports, and boundary rules.
+- Turborepo Task Configuration: https://turborepo.dev/docs/crafting-your-repository/configuring-tasks
+  - Accessed: 2026-06-18
+  - Use: Confirms current `tasks` key and build output caching patterns.
+- Turborepo TypeScript Guide: https://turborepo.dev/docs/guides/tools/typescript
+  - Accessed: 2026-06-18
+  - Use: Confirms Just-in-Time packages, compiled package tradeoffs, `tsc` recommendation for internal packages, and cross-package editor behavior.
+- pnpm Workspaces: https://pnpm.io/workspaces
+  - Accessed: 2026-06-18
+  - Use: Confirms `pnpm-workspace.yaml`, workspace package discovery, and `workspace:` protocol.
+- Anthropic Claude Code Memory: https://code.claude.com/docs/en/memory
+  - Accessed: 2026-06-18
+  - Use: Supports concise project instructions, monorepo instruction scoping, and avoiding oversized always-loaded guidance.
